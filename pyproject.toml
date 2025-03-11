@@ -1,0 +1,20 @@
+[project]
+name = "Telecom-Guru99"
+version = "0.1.0"
+description = "This project uses Selenium WebDriver, PyTest, Python, and the POM framework for automating tests on a web app. It navigates to a URL, tests the Add Customer-form, submits it, and verifies the result. XPath locators are used for element identification, with Poetry for dependency management, and Git/GitHub for version control."
+authors = [
+    {name = "Rose Lan",email = "lantsros@gmail.com"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.7"
+selenium = "4.11.2"
+pytest = "7.4.0"
+junit-xml = "1.9"
+pytest-html = "3.2.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
